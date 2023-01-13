@@ -1,0 +1,69 @@
+.wrap .line {
+  display: inline-block;
+  width: 100%;
+  margin: 0.2rem 0;
+  height: 0.01rem;
+  background: #E3E3E3;
+}
+.wrap .detail-desc > p {
+  color: #333333;
+  font-size: 0.15rem;
+  margin-bottom: 0.1rem;
+}
+.wrap .detail-desc > img {
+  width: 100%;
+  margin-bottom: 0.2rem;
+}
+.question .line {
+  display: inline-block;
+  width: 100%;
+  margin-top: 0.2rem;
+  height: 0.01rem;
+  background: #E3E3E3;
+}
+.question .question-desc .desc-item {
+  padding: 0.2rem 0;
+  color: #333333;
+  font-size: 0.15rem;
+  border-bottom: 1px dashed #C9C9C9;
+}
+.question .question-desc .desc-item .title {
+  margin-bottom: 0.1rem;
+  font-weight: 500;
+}
+.question .question-desc .desc-item .title i,
+.question .question-desc .desc-item .title h4 {
+  display: inline-block;
+}
+.question .question-desc .desc-item .title h4 {
+  font-size: 0.15rem;
+  color: #333333;
+  font-weight: 500;
+}
+.question .question-desc .desc-item .title .iconfont {
+  padding-right: 0;
+}
+.question .question-desc .desc-item .title i.icon-a-duobianxing12 {
+  color: #ACACAC;
+  rotate: 180deg;
+  font-size: 0.1rem;
+  margin-right: 0.08rem;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.question .question-desc .desc-item .title i.rotate {
+  rotate: 0deg;
+}
+.question .question-desc .desc-item .desc-mb {
+  transition: all 0.3s;
+  padding-left: 0.25rem;
+}
+.question .question-desc .desc-item .desc-mb p {
+  margin-bottom: 0.1rem;
+}
+.question .question-desc .desc-item .desc-mb p:last-child {
+  margin-bottom: 0.1rem;
+}
+.question .question-desc .desc-item:last-child {
+  border-bottom: none;
+}
