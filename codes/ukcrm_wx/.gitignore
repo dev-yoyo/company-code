@@ -1,0 +1,9 @@
+/unpackage/dist/*
+/unpackage/cache/*
+/unpackage/release/*
+/node_modules/*
+/.idea/*
+deploy.sh
+/.hbuilderx/
+/.vscode/
+.DS_Store

@@ -1,0 +1,17 @@
+{
+	"id": "友客帮",
+	"scripts": {
+		"test": "eslint . --fix"
+	},
+	"dependencies": {
+		"save": "^2.5.0",
+		"uni-read-pages": "^1.0.5",
+		"uni-simple-router": "^2.0.8-beta.3",
+		"vue-router": "^3.5.3"
+	},
+	"devDependencies": {
+		"eslint": "^8.2.0",
+		"eslint-config-airbnb": "^19.0.0"
+	},
+	"dev:mp-weixin": "cross-env NODE_ENV=development UNI_PLATFORM=mp-weixin vue-cli-service uni-build --watch --minimize"
+}

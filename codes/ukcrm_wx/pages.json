@@ -1,0 +1,948 @@
+{
+	"pages": [{
+			"name": "home",
+			"aliasPath": "/home",
+			"path": "pages/home/index",
+			"style": {
+				"navigationBarTitleText": "首页",
+				"navigationStyle": "custom",
+				"enablePullDownRefresh": true
+			},
+			"app-plus": {
+				"pullToRefresh": true
+			}
+		},
+		{
+			"name": "client",
+			"aliasPath": "/client",
+			"path": "pages/client/index",
+			"style": {
+				"navigationBarTitleText": "客户",
+				"navigationStyle": "custom",
+				"enablePullDownRefresh": true
+			},
+			"app-plus": {
+				"pullToRefresh": true
+			}
+		},
+		{
+			"name": "product",
+			"aliasPath": "/product",
+			"path": "pages/product/index",
+			"style": {
+				"navigationBarTitleText": "企业产品",
+				"navigationStyle": "custom",
+				"enablePullDownRefresh": true
+			},
+			"app-plus": {
+				"pullToRefresh": true
+			}
+		},
+		{
+			"path": "pages/msg/index",
+			"style": {
+				"navigationBarTitleText": "消息",
+				"enablePullDownRefresh": true
+			},
+			"app-plus": {
+				"pullToRefresh": true
+			}
+		},
+		{
+			"name": "my",
+			"path": "pages/my/index",
+			"style": {
+				"navigationBarTitleText": "我的",
+				"navigationStyle": "custom",
+				"enablePullDownRefresh": true
+			},
+			"app-plus": {
+				"pullToRefresh": true
+			}
+		},
+		{
+			"name": "up",
+			"aliasPath": "/up",
+			"path": "pages/my/up",
+			"style": {
+				"navigationBarTitleText": "产品升级",
+				"navigationStyle": "custom",
+				"enablePullDownRefresh": true
+			},
+			"app-plus": {
+				"pullToRefresh": true
+			}
+		},
+		{
+			"name": "card",
+			"aliasPath": "/card",
+			"path": "pages/my/card/index",
+			"style": {
+				"navigationBarTitleText": "我的名片"
+			},
+			"app-plus": {
+				"pullToRefresh": true
+			}
+		},
+		{
+			"name": "card_edit",
+			"aliasPath": "/card_edit",
+			"path": "pages/my/card/edit",
+			"style": {
+				"navigationBarTitleText": "我的名片"
+			},
+			"app-plus": {
+				"pullToRefresh": true
+			}
+		},
+		{
+			"name": "client_detail",
+			"aliasPath": "/client/:id",
+			"path": "pages/client/detail",
+			"style": {
+				"navigationBarTitleText": "客户详情",
+				"enablePullDownRefresh": true
+			},
+			"app-plus": {
+				"pullToRefresh": true
+			}
+		},
+		{
+			"name": "com_client_detail",
+			"aliasPath": "/com_client/:id",
+			"path": "pages/client/com_detail",
+			"style": {
+				"navigationBarTitleText": "公海池客户详情",
+				"enablePullDownRefresh": true
+			},
+			"app-plus": {
+				"pullToRefresh": true
+			}
+		},
+		{
+			"name": "create_client",
+			"aliasPath": "/create_client/:id",
+			"path": "pages/client/create",
+			"style": {
+				"navigationBarTitleText": "创建客户"
+			}
+		},
+		{
+			"name": "client_data",
+			"aliasPath": "/client_data/:id",
+			"path": "pages/client/client_data",
+			"style": {
+				"navigationBarTitleText": "客户资料",
+				"enablePullDownRefresh": true
+			},
+			"app-plus": {
+				"pullToRefresh": true
+			}
+		},
+		{
+			"name": "end_follow",
+			"aliasPath": "/end_follow/:id",
+			"path": "pages/client/end_follow",
+			"style": {
+				"navigationBarTitleText": "放弃跟进"
+			}
+		},
+		{
+			"name": "detail_product",
+			"aliasPath": "/detail_product/:id",
+			"path": "pages/product/detail_product",
+			"style": {
+				"navigationBarTitleText": "产品详情"
+			},
+			"app-plus": {
+				"pullToRefresh": true
+			}
+		},
+		{
+			"name": "agency",
+			"aliasPath": "/agency",
+			"path": "pages/msg/agency",
+			"style": {
+				"navigationBarTitleText": "代办助手",
+				"enablePullDownRefresh": true
+			},
+			"app-plus": {
+				"pullToRefresh": true
+			}
+		},
+		{
+			"name": "system",
+			"aliasPath": "/system",
+			"path": "pages/msg/system",
+			"style": {
+				"navigationBarTitleText": "友客帮小助手",
+				"enablePullDownRefresh": true
+			},
+			"app-plus": {
+				"pullToRefresh": true
+			}
+		},
+		{
+			"name": "workflow",
+			"aliasPath": "/workflow",
+			"path": "pages/msg/workflow",
+			"style": {
+				"navigationBarTitleText": "业务流提醒",
+				"enablePullDownRefresh": true
+			},
+			"app-plus": {
+				"pullToRefresh": true
+			}
+		},
+		{
+			"name": "follow",
+			"aliasPath": "/follow",
+			"path": "pages/msg/follow",
+			"style": {
+				"navigationBarTitleText": "跟进评论",
+				"enablePullDownRefresh": true
+			},
+			"app-plus": {
+				"pullToRefresh": true
+			}
+		},
+		{
+			"name": "create_info",
+			"aliasPath": "/create_info",
+			"path": "pages/my/create_info",
+			"style": {
+				"navigationBarTitleText": "个人信息",
+				"enablePullDownRefresh": true
+			},
+			"app-plus": {
+				"pullToRefresh": true
+			}
+		},
+		{
+			"name": "feedback",
+			"aliasPath": "/feedback",
+			"path": "pages/my/feedback/index",
+			"style": {
+				"navigationBarTitleText": "意见反馈",
+				"enablePullDownRefresh": false
+			},
+			"app-plus": {
+				"pullToRefresh": false
+			}
+		},
+		{
+			"name": "feedback_use",
+			"aliasPath": "/feedback_use",
+			"path": "pages/my/feedback/use",
+			"style": {
+				"navigationBarTitleText": "意见反馈",
+				"enablePullDownRefresh": false
+			},
+			"app-plus": {
+				"pullToRefresh": false
+			}
+		},
+		{
+			"name": "feedback_need",
+			"aliasPath": "/feedback_need",
+			"path": "pages/my/feedback/need",
+			"style": {
+				"navigationBarTitleText": "意见反馈",
+				"enablePullDownRefresh": true
+			},
+			"app-plus": {
+				"pullToRefresh": true
+			}
+		},
+		{
+			"name": "organization",
+			"aliasPath": "/organization",
+			"path": "pages/my/branch/organization",
+			"style": {
+				"navigationBarTitleText": "组织架构",
+				"enablePullDownRefresh": true
+			},
+			"app-plus": {
+				"pullToRefresh": true
+			}
+		},
+		{
+			"name": "branch_list",
+			"aliasPath": "/branch_list",
+			"path": "pages/my/branch/branch_list",
+			"style": {
+				"navigationBarTitleText": "组织架构",
+				"enablePullDownRefresh": true
+			},
+			"app-plus": {
+				"pullToRefresh": true
+			}
+		},
+		{
+			"name": "invite_member",
+			"aliasPath": "/invite_member",
+			"path": "pages/my/branch/invite_member",
+			"style": {
+				"navigationBarTitleText": "邀请成员",
+				"enablePullDownRefresh": true
+			},
+			"app-plus": {
+				"pullToRefresh": true
+			}
+		},
+		{
+			"name": "task_member",
+			"aliasPath": "/task_member",
+			"path": "pages/my/branch/task_member",
+			"style": {
+				"navigationBarTitleText": "调整成员",
+				"enablePullDownRefresh": true
+			},
+			"app-plus": {
+				"pullToRefresh": true
+			}
+		},
+		{
+			"name": "add_branch",
+			"aliasPath": "/add_branch",
+			"path": "pages/my/branch/add_branch",
+			"style": {
+				"navigationBarTitleText": ""
+			}
+		},
+		{
+			"name": "dissolition_company",
+			"aliasPath": "/dissolition_company",
+			"path": "pages/my/branch/dissolition_company",
+			"style": {
+				"navigationBarTitleText": "解散企业原因"
+			}
+		},
+		{
+			"name": "switch_company",
+			"aliasPath": "/switch_company",
+			"path": "pages/my/company/switch",
+			"style": {
+				"navigationBarTitleText": "切换企业"
+			}
+		},
+		{
+			"name": "change_name",
+			"aliasPath": "/change_name",
+			"path": "pages/my/change_name",
+			"style": {
+				"navigationBarTitleText": "设置姓名",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"name": "client_manage",
+			"aliasPath": "/client_manage",
+			"path": "pages/my/client_manage",
+			"style": {
+				"navigationBarTitleText": "客户回收站",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"name": "about_us",
+			"aliasPath": "/about_us",
+			"path": "pages/my/about_us",
+			"style": {
+				"navigationBarTitleText": "关于我们",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"name": "setting",
+			"aliasPath": "/setting",
+			"path": "pages/my/setting/setting",
+			"style": {
+				"navigationBarTitleText": "设置"
+			}
+		},
+		{
+			"name": "set_account",
+			"aliasPath": "/set_account",
+			"path": "pages/my/setting/set_account",
+			"style": {
+				"navigationBarTitleText": "账号设置"
+			}
+		},
+		{
+			"name": "set_pwd",
+			"aliasPath": "/set_pwd",
+			"path": "pages/my/setting/set_pwd",
+			"style": {
+				"navigationBarTitleText": "密码设置"
+			}
+		},
+		{
+			"name": "forgetPwd",
+			"aliasPath": "/forgetPwd",
+			"path": "pages/my/setting/forgetPwd",
+			"style": {
+				"navigationBarTitleText": "忘记密码"
+			}
+		},
+		{
+			"name": "company_target",
+			"aliasPath": "/company_target",
+			"path": "pages/my/target/index",
+			"style": {
+				"navigationBarTitleText": "业绩目标"
+			}
+		},
+		{
+			"name": "company_target_admin_detail",
+			"aliasPath": "/company_target_admin_detail",
+			"path": "pages/my/target/adminDetail",
+			"style": {
+				"navigationBarTitleText": "目标详情"
+			}
+		},
+		{
+			"name": "company_target_detail",
+			"aliasPath": "/company_target_detail",
+			"path": "pages/my/target/detail",
+			"style": {
+				"navigationBarTitleText": "目标详情"
+			}
+		},
+		{
+			"name": "choose_member",
+			"aliasPath": "/choose_member",
+			"path": "pages/home/chooseMember",
+			"style": {
+				"navigationBarTitleText": "员工与部门"
+			}
+		}
+
+	],
+	"subPackages": [
+		{
+			"root": "packageA",
+			"pages": [{
+				"name": "offer",
+				"aliasPath": "/offer",
+				"path": "offer/list",
+				"style": {
+					"navigationBarTitleText": "报价单",
+					"enablePullDownRefresh": true
+				},
+				"app-plus": {
+					"pullToRefresh": true
+				}
+			},
+			{
+				"name": "offer_detail",
+				"aliasPath": "/offer_detail/:id",
+				"path": "offer/detail",
+				"style": {
+					"navigationBarTitleText": "报价单详情",
+					"enablePullDownRefresh": true
+				},
+				"app-plus": {
+					"pullToRefresh": true
+				}
+			},
+			{
+				"name": "offer_create",
+				"aliasPath": "/offer_create",
+				"path": "offer/create",
+				"style": {
+					"navigationBarTitleText": "添加报价单"
+				}
+			},
+			{
+				"name": "offer_edit",
+				"aliasPath": "/offer_edit/:id",
+				"path": "offer/edit",
+				"style": {
+					"navigationBarTitleText": "编辑报价单"
+				}
+			},
+			{
+				"name": "offer_choose_prodcut",
+				"aliasPath": "/offer_choose_prodcut",
+				"path": "offer/choose_prodcut",
+				"style": {
+					"navigationBarTitleText": "选择关联产品",
+					"enablePullDownRefresh": true
+				},
+				"app-plus": {
+					"pullToRefresh": true
+				}
+			},
+			{
+				"name": "return_money",
+				"aliasPath": "/return_money",
+				"path": "return_money/list",
+				"style": {
+					"navigationBarTitleText": "回款统计",
+					"enablePullDownRefresh": true
+				},
+				"app-plus": {
+					"pullToRefresh": true
+				}
+			},
+			{
+				"name": "choose_period",
+				"aliasPath": "/choose_period",
+				"path": "return_money/choose_period",
+				"style": {
+					"navigationBarTitleText": "回款计划期数"
+				}
+			},
+			{
+				"name": "return_money_detail",
+				"aliasPath": "/return_money_detail/:id",
+				"path": "return_money/detail",
+				"style": {
+					"navigationBarTitleText": "回款单详情",
+					"enablePullDownRefresh": true
+				},
+				"app-plus": {
+					"pullToRefresh": true
+				}
+			},
+			{
+				"name": "return_money_plan",
+				"aliasPath": "/return_money_plan/",
+				"path": "return_money/plan",
+				"style": {
+					"navigationBarTitleText": "新建回款计划"
+				}
+			},
+			{
+				"name": "return_money_create",
+				"aliasPath": "/return_money_create/",
+				"path": "return_money/create",
+				"style": {
+					"navigationBarTitleText": "添加回款单"
+				}
+			},
+			{
+				"name": "return_money_edit",
+				"aliasPath": "/return_money_edit/:id",
+				"path": "return_money/edit",
+				"style": {
+					"navigationBarTitleText": "编辑回款单"
+				}
+			},
+			{
+				"name": "return_choose_contract",
+				"aliasPath": "/return_choose_contract",
+				"path": "return_money/choose_contract",
+				"style": {
+					"navigationBarTitleText": "选择关联合同",
+					"enablePullDownRefresh": true
+				},
+				"app-plus": {
+					"pullToRefresh": true
+				}
+			},
+			{
+				"name": "contract",
+				"aliasPath": "/contract",
+				"path": "contract/list",
+				"style": {
+					"navigationBarTitleText": "合同订单",
+					"enablePullDownRefresh": true
+				},
+				"app-plus": {
+					"pullToRefresh": true
+				}
+			},
+			{
+				"name": "repair",
+				"aliasPath": "/repair",
+				"path": "repair/index",
+				"style": {
+					"navigationBarTitleText": "保修统计",
+					// "navigationStyle": "custom",
+					"enablePullDownRefresh": true
+				},
+				"app-plus": {
+					"pullToRefresh": true
+				}
+			},
+			{
+				"name": "repair_detail",
+				"aliasPath": "/repair_detail",
+				"path": "repair/detail",
+				"style": {
+					"navigationBarTitleText": "产品信息"
+				}
+			},
+			{
+				"name": "repair_product",
+				"aliasPath": "/repair_product",
+				"path": "repair/product",
+				"style": {
+					"navigationBarTitleText": "返修产品"
+				}
+			},
+			{
+				"name": "repair_record",
+				"aliasPath": "/repair_record",
+				"path": "repair/record",
+				"style": {
+					"navigationBarTitleText": "返修记录"
+				}
+			},
+			{
+				"name": "contract_detail",
+				"aliasPath": "/contract_detail/:id",
+				"path": "contract/detail",
+				"style": {
+					"navigationBarTitleText": "合同订单详情"
+				}
+			},
+			{
+				"name": "shipment",
+				"aliasPath": "/shipment",
+				"path": "shipment/index",
+				"style": {
+					"navigationBarTitleText": "新建出货"
+				}
+			},
+			{
+				"name": "manualrecord",
+				"aliasPath": "/manualrecord",
+				"path": "shipment/record",
+				"style": {
+					"navigationBarTitleText": "手动录入"
+				}
+			},
+			{
+				"name": "productcode",
+				"aliasPath": "/productcode",
+				"path": "shipment/code",
+				"style": {
+					"navigationBarTitleText": "录入产品编码"
+				}
+			},
+			{
+				"name": "shipmentinfo",
+				"aliasPath": "/shipmentinfo",
+				"path": "shipment/info",
+				"style": {
+					"navigationBarTitleText": "出货详情"
+				}
+			},
+			{
+				"name": "contract_end",
+				"aliasPath": "/contract_end",
+				"path": "contract/end",
+				"style": {
+					"navigationBarTitleText": "终止合同"
+				}
+			},
+			{
+				"name": "contract_create",
+				"aliasPath": "/contract_create/",
+				"path": "contract/create",
+				"style": {
+					"navigationBarTitleText": "新增合同"
+				}
+			},
+			{
+				"name": "contract_edit",
+				"aliasPath": "/contract_edit/",
+				"path": "contract/edit",
+				"style": {
+					"navigationBarTitleText": "编辑合同"
+				}
+			},
+			{
+				"name": "contract_success",
+				"aliasPath": "/contract_success/",
+				"path": "contract/success",
+				"style": {
+					"navigationBarTitleText": "创建成功"
+				}
+			},
+			{
+				"name": "choose_customer",
+				"aliasPath": "/choose_customer",
+				"path": "contract/choose_customer",
+				"style": {
+					"navigationBarTitleText": "选择客户"
+				}
+			},
+			{
+				"name": "choose_offer",
+				"aliasPath": "/choose_offer",
+				"path": "contract/choose_offer",
+				"style": {
+					"navigationBarTitleText": "选择报价单"
+				}
+			}]
+		},
+		{
+			"root": "packageB",
+			"pages": [
+				{
+					"name": "achievement_top",
+					"aliasPath": "/achievement_top",
+					"path": "achievement/achievementTop",
+					"style": {
+						"navigationBarTitleText": "业绩排行",
+						"navigationStyle": "custom",
+						"enablePullDownRefresh": true
+					},
+					"app-plus": {
+						"pullToRefresh": true
+					}
+				},
+				{
+					"name": "achievement_target",
+					"aliasPath": "/achievement_target",
+					"path": "achievement/target",
+					"style": {
+						"navigationBarTitleText": "业绩目标",
+						"navigationStyle": "custom",
+						"enablePullDownRefresh": true
+					},
+					"app-plus": {
+						"pullToRefresh": true
+					}
+				},
+				{
+					"name": "create_company",
+					"aliasPath": "/create_company",
+					"path": "create/create_company",
+					"style": {
+						"navigationBarTitleText": ""
+					}
+				},
+				{
+					"name": "choose_list",
+					"aliasPath": "/choose_list",
+					"path": "create/choose_list",
+					"style": {
+						"navigationBarTitleText": ""
+					}
+				},
+				{
+					"name": "choose_goods",
+					"aliasPath": "/choose_goods",
+					"path": "create/choose_goods",
+					"style": {
+						"navigationBarTitleText": "选择产品"
+					}
+				},
+				{
+					"name": "create_follow",
+					"aliasPath": "/create_follow/:id",
+					"path": "create/create_follow",
+					"style": {
+						"navigationBarTitleText": "跟进记录"
+					}
+				},
+				{
+					"name": "follow_record",
+					"aliasPath": "/follow_record/:id",
+					"path": "detail/follow_record",
+					"style": {
+						"navigationBarTitleText": "跟进记录",
+						"enablePullDownRefresh": true
+					},
+					"app-plus": {
+						"pullToRefresh": true
+					}
+				},
+				{
+					"name": "add_comment",
+					"aliasPath": "/add_comment",
+					"path": "detail/add_comment",
+					"style": {
+						"navigationBarTitleText": "跟进评论",
+						"enablePullDownRefresh": true
+					},
+					"app-plus": {
+						"pullToRefresh": true
+					}
+				},
+				{
+					"name": "member_detail",
+					"aliasPath": "/member_detail",
+					"path": "detail/member_detail",
+					"style": {
+						"navigationBarTitleText": "成员信息",
+						"enablePullDownRefresh": true
+					},
+					"app-plus": {
+						"pullToRefresh": true
+					}
+				},
+				{
+					"name": "login",
+					"aliasPath": "/login",
+					"path": "login/login",
+					"style": {
+						"navigationBarTitleText": "登录",
+						"navigationStyle": "custom"
+					}
+				},
+				{
+					"name": "register",
+					"aliasPath": "/register",
+					"path": "login/register",
+					"style": {
+						"navigationBarTitleText": "注册账号",
+						"navigationStyle": "custom"
+					}
+				},
+				{
+					"name": "choose_company",
+					"aliasPath": "/choose_company",
+					"path": "login/choose_company",
+					"style": {
+						"navigationBarTitleText": "创建、加入企业",
+						"navigationStyle": "custom"
+					}
+				},
+				{
+					"name": "join_company",
+					"aliasPath": "/join_company",
+					"path": "login/join_company",
+					"style": {
+						"navigationBarTitleText": "",
+						"enablePullDownRefresh": true
+					},
+					"app-plus": {
+						"pullToRefresh": true
+					}
+				},
+				{
+					"name": "create_branch",
+					"aliasPath": "/create_branch",
+					"path": "login/create_branch",
+					"style": {
+						"navigationBarTitleText": ""
+					}
+				},
+				{
+					"name": "agreement",
+					"aliasPath": "/agreement",
+					"path": "login/agreement",
+					"style": {
+						"navigationBarTitleText": "服务协议"
+					}
+				},
+				{
+					"name": "privacy",
+					"aliasPath": "/privacy",
+					"path": "login/privacy",
+					"style": {
+						"navigationBarTitleText": "隐私政策"
+					}
+				},
+				{
+					"name": "sell_top",
+					"aliasPath": "/sell_top",
+					"path": "sell/sellTop",
+					"style": {
+						"navigationBarTitleText": "销售排行",
+						"navigationStyle": "custom",
+						"enablePullDownRefresh": true
+					},
+					"app-plus": {
+						"pullToRefresh": true
+					}
+				},
+				{
+					"name": "visit_plan",
+					"aliasPath": "/visit_plan",
+					"path": "visit_plan/index",
+					"style": {
+						"navigationBarTitleText": "拜访计划",
+						"navigationStyle": "custom",
+						"enablePullDownRefresh": true
+					},
+					"app-plus": {
+						"pullToRefresh": true
+					}
+				},
+				{
+					"name": "visit_create",
+					"aliasPath": "/visit_create",
+					"path": "visit_plan/create",
+					"style": {
+						"navigationBarTitleText": "拜访计划"
+					}
+				},
+				{
+					"name": "visit_plan_list",
+					"aliasPath": "/visit_plan_list",
+					"path": "visit_plan/list",
+					"style": {
+						"navigationBarTitleText": "拜访计划"
+					}
+				}
+            ]
+		}
+	],
+	"preloadRule": {
+		"packageA/offer/list": {
+			"network": "all",
+			"packages": ["__APP__"]
+		},
+		"packageA/return_money/list": {
+			"network": "all",
+			"packages": ["__APP__"]
+		},
+		"packageA/contract/list": {
+			"network": "all",
+			"packages": ["__APP__"]
+		}
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "友客帮",
+		"navigationBarBackgroundColor": "#FFFFFF",
+		"backgroundColor": "#FFFFFF"
+	},
+	"tabBar": {
+		"height": "60px",
+		"iconWidth": "20px",
+		"fontSize": "15px",
+		"color": "#333333",
+		"selectedColor": "#0064F9",
+		"backgroundColor": "#FFFFFF",
+		"borderStyle": "black",
+		"list": [{
+				"pagePath": "pages/home/index",
+				"iconPath": "static/tabbar/home.png",
+				"selectedIconPath": "static/tabbar/active_home.png",
+				"text": "首页"
+			},
+			{
+				"pagePath": "pages/client/index",
+				"iconPath": "static/tabbar/customer.png",
+				"selectedIconPath": "static/tabbar/active_customer.png",
+				"text": "客户"
+			},
+			{
+				"pagePath": "pages/product/index",
+				"iconPath": "static/tabbar/product.png",
+				"selectedIconPath": "static/tabbar/active_product.png",
+				"text": "产品"
+			},
+			{
+				"pagePath": "pages/msg/index",
+				"iconPath": "static/tabbar/msg.png",
+				"selectedIconPath": "static/tabbar/active_msg.png",
+				"text": "消息"
+			},
+			{
+				"pagePath": "pages/my/index",
+				"iconPath": "static/tabbar/my.png",
+				"selectedIconPath": "static/tabbar/active_my.png",
+				"text": "我的"
+			}
+		]
+	}
+}

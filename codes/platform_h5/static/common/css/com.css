@@ -1,0 +1,40 @@
+view,
+text,
+scroll-view {
+  box-sizing: border-box;
+  word-wrap: normal;
+  word-break: break-all;
+}
+
+body {
+  background: #F4F4F4;
+}
+
+.d-flex {
+  display: flex;
+  align-items: center;
+}
+
+.text-ellipsis-one {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  text-overflow: -o-ellipsis-lastline;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 1;
+  line-clamp: 1;
+}
+
+.text-ellipsis-two {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  text-overflow: -o-ellipsis-lastline;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 2;
+  line-clamp: 2;
+}
+
+.t-icon {
+  background-size: 100% 100% !important;
+}

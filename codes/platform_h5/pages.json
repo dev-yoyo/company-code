@@ -1,0 +1,315 @@
+{
+	"easycom": {
+		"^u-(.*)": "uview-ui/components/u-$1/u-$1.vue"
+	},
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"name": "home",
+			"aliasPath": "/home",
+			"path": "pages/home/index",
+			"style": {
+				"navigationBarTitleText": "易百纳技术社区",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"name": "search",
+			"aliasPath": "/search/:search",
+			"path": "pages/home/search",
+			"style": {
+				"navigationBarTitleText": "易百纳技术社区",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"name": "ask",
+			"aliasPath": "/ask",
+			"path": "pages/ask/index",
+			"style": {
+				"navigationBarTitleText": "问答",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"name": "ask_create",
+			"aliasPath": "/ask/create",
+			"path": "pages/ask/ask_create",
+			"style": {
+				"navigationBarTitleText": "创建问答"
+			}
+		},
+		{
+			"name": "ask_detail",
+			"aliasPath": "/ask/:id",
+			"path": "pages/ask/ask_detail",
+			"style": {
+				"navigationBarTitleText": "问答详情",
+				"usingSwanComponents": {
+					"editor": "dynamicLib://editorLib/editor"
+				}
+			}
+		},
+		{
+			"name": "ai",
+			"aliasPath": "/ai",
+			"path": "pages/ai/index",
+			"style": {
+				"navigationBarTitleText": "AI硬件",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"name": "ai_detail",
+			"aliasPath": "/ai/:id",
+			"path": "pages/ai/detail",
+			"style": {
+				"navigationBarTitleText": "详情"
+			}
+		},
+		{
+			"name": "shopping_car",
+			"aliasPath": "/shopping_cars",
+			"path": "pages/ai/shopping_car",
+			"style": {
+				"navigationBarTitleText": "购物车"
+			}
+		},
+		{
+			"name": "payment",
+			"aliasPath": "/payment",
+			"path": "pages/ai/payment",
+			"style": {
+				"navigationBarTitleText": "购物车结算"
+			}
+		},
+		{
+			"name": "msg",
+			"aliasPath": "/messages",
+			"path": "pages/msg/index",
+			"style": {
+				"navigationBarTitleText": "消息"
+			}
+		},
+		{
+			"name": "needs",
+			"aliasPath": "/demand",
+			"path": "pages/needs/index",
+			"style": {
+				"navigationBarTitleText": "外包",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"name": "my",
+			"aliasPath": "/user_center",
+			"path": "pages/my/index",
+			"style": {
+				"navigationBarTitleText": "我的"
+			}
+		},
+		{
+			"name": "my_ask",
+			"aliasPath": "/user_center/ask",
+			"path": "pages/my/ask",
+			"style": {
+				"navigationBarTitleText": "我的问答"
+			}
+		},
+		{
+			"name": "my_collect",
+			"aliasPath": "/user_center/collects",
+			"path": "pages/my/collect",
+			"style": {
+				"navigationBarTitleText": "我的收藏"
+			}
+		},
+		{
+			"name": "my_demand",
+			"aliasPath": "/user_center/demand",
+			"path": "pages/my/demand",
+			"style": {
+				"navigationBarTitleText": "我的外包"
+			}
+		},
+		{
+			"name": "my_order",
+			"aliasPath": "/user_center/orders",
+			"path": "pages/my/order",
+			"style": {
+				"navigationBarTitleText": "我的订单"
+			}
+		},
+		{
+			"name": "my_address",
+			"aliasPath": "/user_center/address",
+			"path": "pages/my/address",
+			"style": {
+				"navigationBarTitleText": "地址管理"
+			}
+		},
+		{
+			"name": "my_address_edit",
+			"aliasPath": "/user_center/address/create",
+			"path": "pages/my/address_edit",
+			"style": {
+				"navigationBarTitleText": "地址管理"
+			}
+		},
+		{
+			"name": "my_invoice",
+			"aliasPath": "/user_center/invoice",
+			"path": "pages/my/invoice",
+			"style": {
+				"navigationBarTitleText": "发票信息"
+			}
+		},
+		{
+			"name": "my_gift",
+			"aliasPath": "/user_center/exchange_point",
+			"path": "pages/my/gift",
+			"style": {
+				"navigationBarTitleText": "礼品兑换"
+			}
+		},
+		{
+			"name": "exchange_point_detail",
+			"aliasPath": "/user_center/exchange_point_detail",
+			"path": "pages/my/exchange_point_detail",
+			"style": {
+				"navigationBarTitleText": "礼品兑换"
+			}
+		},
+		{
+			"name": "admin",
+			"aliasPath": "/majia/content_manage",
+			"path": "pages/admin/index",
+			"style": {
+				"navigationBarTitleText": "社区管理"
+			}
+		},
+		{
+			"name": "art_detail",
+			"aliasPath": "/articles/:id",
+			"path": "pages/article/detail",
+			"style": {
+				"navigationBarTitleText": "专栏详情"
+			}
+		},
+		{
+			"name": "down_detail",
+			"aliasPath": "/down/:id",
+			"path": "pages/down/detail",
+			"style": {
+				"navigationBarTitleText": "资料详情"
+			}
+		},
+		{
+			"name": "needs",
+			"aliasPath": "/demand_pc",
+			"path": "pages/needs/index",
+			"style": {
+				"navigationBarTitleText": "外包"
+			}
+		},
+		{
+			"name": "needs_create",
+			"aliasPath": "/demand_pc/create",
+			"path": "pages/needs/create",
+			"style": {
+				"navigationBarTitleText": "发布外包"
+			}
+		},
+		{
+			"name": "needs_edit",
+			"aliasPath": "/demand_pc/edit/:id",
+			"path": "pages/needs/edit",
+			"style": {
+				"navigationBarTitleText": "编辑外包"
+			}
+		},
+		{
+			"name": "needs_detail",
+			"aliasPath": "/demand_pc/:id",
+			"path": "pages/needs/detail",
+			"style": {
+				"navigationBarTitleText": "外包详情"
+			}
+		},
+		{
+			"name": "auth",
+			"aliasPath": "/auth",
+			"path": "pages/auth",
+			"style": {
+				"navigationBarTitleText": ""
+			}
+		},
+        {
+            "name": "system",
+            "aliasPath": "/system",
+            "path": "pages/single/system",
+            "style": {
+                "navigationBarTitleText": "产品资料合集",
+                "enablePullDownRefresh": true
+            }
+        },
+        {
+            "name": "system_view",
+            "aliasPath": "/system_view",
+            "path": "pages/single/view",
+            "style": {
+                "navigationBarTitleText": "产品资料合集",
+                "enablePullDownRefresh": true
+            }
+        }
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "易百纳技术社区",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8",
+		// #ifdef H5
+		"navigationStyle": "custom"
+		// #endif
+	},
+	"tabBar": {
+		"color": "#333333",
+		"selectedColor": "#0064F9",
+		"height": "60px",
+		"iconWidth": "22px",
+		"fontSize": "11px",
+		"backgroundColor": "#FFFFFF",
+		"borderStyle": "black",
+		"list": [
+			{
+				"pagePath": "pages/home/index",
+				"iconPath": "static/tabbar/home.png",
+				"selectedIconPath": "static/tabbar/active_home.png",
+				"text": "首页"
+			},
+			{
+				"pagePath": "pages/ask/index",
+				"iconPath": "static/tabbar/ask.png",
+				"selectedIconPath": "static/tabbar/active_ask.png",
+				"text": "问答"
+			},
+			{
+				"pagePath": "pages/ai/index",
+				"iconPath": "static/tabbar/ai.png",
+				"selectedIconPath": "static/tabbar/active_ai.png",
+				"text": "AI硬件"
+			},
+			{
+				"pagePath": "pages/needs/index",
+				"iconPath": "static/tabbar/demand.png",
+				"selectedIconPath": "static/tabbar/active_demand.png",
+				"text": "外包"
+			},
+			{
+				"pagePath": "pages/my/index",
+				"iconPath": "static/tabbar/my.png",
+				"selectedIconPath": "static/tabbar/active_my.png",
+				"text": "我的"
+			}
+		]
+	}
+}
